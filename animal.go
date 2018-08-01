@@ -13,3 +13,7 @@ func (c *Chance) Animal() string {
 	randomIndex := rand.Intn(len(data.Animal[animalType]) - 1)
 	return data.Animal[animalType][randomIndex]
 }
+
+func (c *Chance) AnimalWithParams(category string) (string, error) {
+	return "aaaa", nil
+}
