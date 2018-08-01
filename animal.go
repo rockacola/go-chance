@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"reflect"
 
-	"./data"
+	"github.com/rockacola/go-chance/data"
 )
 
 func (c *Chance) Animal() string {
