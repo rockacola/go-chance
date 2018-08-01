@@ -1,0 +1,4 @@
+/*
+Package chance
+*/
+package chance
