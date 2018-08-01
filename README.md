@@ -20,8 +20,11 @@ Advanced methods:
 // Instantiate with your specified seek
 c := chance.NewChanceWithSeed(123456)
 
-// All methods had a 'WithParams' variant to allow feature customizations
-fmt.Println("Natural():", c.NaturalWithParams(10, 100))
+// All methods had a 'WithParams' variant to allow feature customizations and potential error outcome
+num, err := c.NaturalWithParams(10, 100)
+if (err == nil) {
+    fmt.Println("Natural():", num)
+}
 ```
 
 Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples) for more example usages.
@@ -53,7 +56,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Person        | `Prefix()`            | `TBA`                                 | TBA               |
 | ✗    | Person        | `Ssn()`               | `TBA`                                 | TBA               |
 | ✗    | Person        | `Suffix()`            | `TBA`                                 | TBA               |
-| ✓    | Things        | `Animal()`            | `TBA`                                 | TBA               |
+| ✓    | Things        | `Animal()`            | `AnimalWithParams(category string)`   | Generate a random animal. |
 | ✗    | Mobile        | `AndroidId()`         | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `AppleToken()`        | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `BlackBerryPin()`     | `TBA`                                 | TBA               |
