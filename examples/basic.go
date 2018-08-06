@@ -15,6 +15,7 @@ func main() {
 	// Basics
 	fmt.Println("Bool():", c.Bool())
 	fmt.Println("Character():", c.Character())
+	fmt.Println("Floating():", c.Floating())
 	fmt.Println("Natural():", c.Natural())
 
 	// Things
