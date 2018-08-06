@@ -9,9 +9,13 @@ import (
 func main() {
 	fmt.Println("=== DEMO ===")
 
+	// Constructor
 	c := chance.NewChance()
+
+	// Maths
 	fmt.Println("Natural():", c.Natural())
 
-	animal, _ := c.AnimalWithParams("fish")
+	// Animals
+	animal, _ := c.AnimalWithParams("desert")
 	fmt.Println("AnimalWithParams():", animal)
 }
