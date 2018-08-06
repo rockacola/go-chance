@@ -17,10 +17,10 @@ fmt.Println("Natural():", c.Natural())
 Advanced methods:
 
 ```go
-// Instantiate with your specified seek
+// Instantiate with specified seed
 c := chance.NewChanceWithSeed(123456)
 
-// All methods had a 'WithParams' variant to allow feature customizations and potential error outcome
+// All methods had a 'WithParams' variant allows feature customizations and error capture
 num, err := c.NaturalWithParams(10, 100)
 if (err == nil) {
     fmt.Println("Natural():", num)
