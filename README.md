@@ -37,7 +37,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Basics        | `Character()`         | `CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | TBA               |
 | ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | TBA               |
 | ✓    | Basics        | `Integer()`           | `IntegerWithParams(min int, max int)` | TBA               |
-| ✗    | Basics        | `Letter()`            | `TBA`                                 | TBA               |
+| ✓    | Basics        | `Letter()`            | `TBA`                                 | TBA               |
 | ✓    | Basics        | `Natural`             | `NaturalWithParams(min int, max int)` | Return a natural number. |
 | ✗    | Basics        | `Prime()`             | `TBA`                                 | TBA               |
 | ✗    | Basics        | `String()`            | `TBA`                                 | TBA               |

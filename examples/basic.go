@@ -17,6 +17,7 @@ func main() {
 	fmt.Println("Character():", c.Character())
 	fmt.Println("Floating():", c.Floating())
 	fmt.Println("Integer():", c.Integer())
+	fmt.Println("Letter():", c.Letter())
 	fmt.Println("Natural():", c.Natural())
 
 	// Things
