@@ -4,6 +4,7 @@ import (
 	"errors"
 )
 
+// Generate a random boolean value, either 'true' or 'false'
 func (c *Chance) Bool() bool {
 	return c.Rand.Intn(2) == 1
 }
