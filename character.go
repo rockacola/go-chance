@@ -8,7 +8,7 @@ import (
 	"github.com/rockacola/go-chance/data"
 )
 
-// Generate a single length string within pool of common characters
+// Generate a single length string within a pool of common characters
 func (c *Chance) Character() string {
 	categories := reflect.ValueOf(data.Character).MapKeys()
 	category := categories[0].Interface().(string) // Golang natively randomize its key orders, hence simply picking the first item is sufficient.
