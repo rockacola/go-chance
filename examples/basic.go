@@ -16,6 +16,7 @@ func main() {
 	fmt.Println("Bool():", c.Bool())
 	fmt.Println("Character():", c.Character())
 	fmt.Println("Floating():", c.Floating())
+	fmt.Println("Integer():", c.Integer())
 	fmt.Println("Natural():", c.Natural())
 
 	// Things
