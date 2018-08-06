@@ -11,10 +11,3 @@ func TestAnimal(t *testing.T) {
 		t.Errorf("Animal() was incorrect, expect: [1 or more character], actual: %s.", actual)
 	}
 }
-
-func BenchmarkAnimal(b *testing.B) {
-	c := NewChance()
-	for n := 0; n < b.N; n++ {
-		c.Animal()
-	}
-}
