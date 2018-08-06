@@ -1,6 +1,6 @@
 # go-chance - Random generator helper for golang
 
-Unofficial golang port of [`chance.js`](https://github.com/chancejs/chancejs).
+A golang random generator helper inspired by [`chance.js`](https://github.com/chancejs/chancejs).
 
 ## Get Started
 
@@ -34,9 +34,9 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | Done | Category      | Basic Method          | Advanced Method                       | Description       |
 | :--: | ------------- | --------------------- | ------------------------------------- | ----------------- |
 | ✓    | Basics        | `Bool()`              | `BoolWithParams(likelihood int)`      | Return a random boolean value. |
-| ✗    | Basics        | `Character()`         | `TBA`                                 | TBA               |
-| ✗    | Basics        | `Floating()`          | `TBA`                                 | TBA               |
-| ✗    | Basics        | `Integer()`           | `TBA`                                 | TBA               |
+| ✓    | Basics        | `Character()`         | `CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | TBA               |
+| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | TBA               |
+| ✓    | Basics        | `Integer()`           | `IntegerWithParams(min int, max int)` | TBA               |
 | ✗    | Basics        | `Letter()`            | `TBA`                                 | TBA               |
 | ✓    | Basics        | `Natural`             | `NaturalWithParams(min int, max int)` | Return a natural number. |
 | ✗    | Basics        | `Prime()`             | `TBA`                                 | TBA               |

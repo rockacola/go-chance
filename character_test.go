@@ -18,6 +18,6 @@ func TestCharacterWithParams(t *testing.T) {
 	if err != nil {
 		t.Errorf("CharacterWithParams() execution error: %s", err.Error())
 	} else if len(actual) != 1 {
-		t.Errorf("Character() was incorrect, expect: [exactly 1 character], actual: %s.", actual)
+		t.Errorf("CharacterWithParams() was incorrect, expect: [exactly 1 character], actual: %s.", actual)
 	}
 }
