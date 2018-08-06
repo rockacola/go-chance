@@ -11,6 +11,6 @@ func (c *Chance) Integer() int {
 }
 
 func (c *Chance) IntegerWithParams(min int, max int) (int, error) {
-	output := min + int(c.Rand.Float32()*float32(max-min))
+	output := min + c.Rand.Intn(max-min)
 	return output, nil
 }
