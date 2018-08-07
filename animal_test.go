@@ -14,7 +14,8 @@ func TestAnimal(t *testing.T) {
 
 func TestAnimalWithParams(t *testing.T) {
 	c := NewChance()
-	actual, err := c.AnimalWithParams("ocean")
+	category := "ocean"
+	actual, err := c.AnimalWithParams(category)
 	if err != nil {
 		t.Errorf("AnimalWithParams() execution error: %s", err.Error())
 	} else if len(actual) <= 0 {

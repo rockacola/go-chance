@@ -14,10 +14,11 @@ func TestNatural(t *testing.T) {
 
 func TestNaturalWithParams(t *testing.T) {
 	c := NewChance()
-	actual, err := c.NaturalWithParams(100, 200)
+	min, max := 100, 200
+	actual, err := c.NaturalWithParams(min, max)
 	if err != nil {
 		t.Errorf("NaturalWithParams() execution error: %s", err.Error())
-	} else if actual < 100 || actual > 200 {
-		t.Errorf("NaturalWithParams() was incorrect, expect: [between 0 and 10], actual: %d.", actual)
+	} else if actual < min || actual > max {
+		t.Errorf("NaturalWithParams() was incorrect, expect: [between %d and %d], actual: %d.", min, max, actual)
 	}
 }

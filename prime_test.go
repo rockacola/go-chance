@@ -14,10 +14,11 @@ func TestPrime(t *testing.T) {
 
 func TestPrimeWithParams(t *testing.T) {
 	c := NewChance()
-	actual, err := c.PrimeWithParams(100, 200)
+	min, max := 100, 200
+	actual, err := c.PrimeWithParams(min, max)
 	if err != nil {
 		t.Errorf("PrimeWithParams() execution error: %s", err.Error())
-	} else if actual < 100 || actual > 200 {
-		t.Errorf("PrimeWithParams() was incorrect, expect: [between 100 and 200], actual: %d.", actual)
+	} else if actual < min || actual > max {
+		t.Errorf("PrimeWithParams() was incorrect, expect: [between %d and %d], actual: %d.", min, max, actual)
 	}
 }
