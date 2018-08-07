@@ -42,7 +42,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Basics        | `Prime()`             | `PrimeWithParams(min int, max int)`   | Generate a prime number between 1 and 10,000 inclusive. |
 | ✓    | Basics        | `String()`            | `StringWithParams(length int, lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a random string with a pool of common characters. |
 | ✗    | Text          | `Paragraph()`         | `TBA`                                 | TBA               |
-| ✗    | Text          | `Sentence()`          | `TBA`                                 | TBA               |
+| ✗    | Text          | `Sentence()`          | `SentenceWithParams(minWords int, maxWords int)` | Generate a semi-pronounceable nonsense word. |
 | ✓    | Text          | `Syllable()`          | N/A                                   | Generate a semi-speakable syllable with 2 or 3 letters. |
 | ✓    | Text          | `Word()`              | `WordWithParams(minSyllables int, maxSyllables int)` | Generate a semi-pronounceable nonsense word. |
 | ✗    | Person        | `Age()`               | `TBA`                                 | TBA               |
