@@ -22,6 +22,9 @@ func main() {
 	fmt.Println("Prime():", c.Prime())
 	fmt.Println("String():", c.String())
 
+	// Text
+	fmt.Println("Syllable():", c.Syllable())
+
 	// Things
 	fmt.Println("Animal():", c.Animal())
 }
