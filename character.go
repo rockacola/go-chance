@@ -10,26 +10,26 @@ import (
 
 // Generate a single length string within a pool of common characters
 func (c *Chance) Character() string {
-	categories := reflect.ValueOf(data.Character).MapKeys()
+	categories := reflect.ValueOf(data.Characters).MapKeys()
 	category := categories[0].Interface().(string) // Golang natively randomize its key orders, hence simply picking the first item is sufficient.
-	randomIndex := c.Rand.Intn(len(data.Character[category]) - 1)
-	return string(data.Character[category][randomIndex])
+	randomIndex := c.Rand.Intn(len(data.Characters[category]) - 1)
+	return string(data.Characters[category][randomIndex])
 }
 
 func (c *Chance) CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool) (string, error) {
 	// build pool
 	var buffer bytes.Buffer
 	if lowerCaseAlphabets {
-		buffer.WriteString(data.Character["lower"])
+		buffer.WriteString(data.Characters["lower"])
 	}
 	if upperCaseAlphabets {
-		buffer.WriteString(data.Character["upper"])
+		buffer.WriteString(data.Characters["upper"])
 	}
 	if numerics {
-		buffer.WriteString(data.Character["numberic"])
+		buffer.WriteString(data.Characters["numberic"])
 	}
 	if symbols {
-		buffer.WriteString(data.Character["symbol"])
+		buffer.WriteString(data.Characters["symbol"])
 	}
 
 	pool := buffer.String()
