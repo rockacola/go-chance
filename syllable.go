@@ -14,11 +14,9 @@ func (c *Chance) Syllable() string {
 }
 
 func (c *Chance) consonant() string {
-	randomIndex := c.Rand.Intn(len(data.Characters["consonant"]) - 1)
-	return string(data.Characters["consonant"][randomIndex])
+	return c.stringFromPool(1, data.Characters["consonant"])
 }
 
 func (c *Chance) vowel() string {
-	randomIndex := c.Rand.Intn(len(data.Characters["vowel"]) - 1)
-	return string(data.Characters["vowel"][randomIndex])
+	return c.stringFromPool(1, data.Characters["vowel"])
 }

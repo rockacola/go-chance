@@ -46,10 +46,15 @@ func (c *Chance) StringWithParams(length int, lowerCaseAlphabets bool, upperCase
 		return "", errors.New("Invalid pool size, you must have at least 1 option as [true].")
 	}
 
+	output := c.stringFromPool(length, pool)
+	return output, nil
+}
+
+func (c *Chance) stringFromPool(length int, pool string) string {
 	output := ""
 	for i := 0; i < length; i++ {
 		randomIndex := c.Rand.Intn(len(pool) - 1)
 		output += string(pool[randomIndex])
 	}
-	return output, nil
+	return output
 }
