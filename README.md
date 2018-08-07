@@ -114,7 +114,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Finance       | `CreditCardExp()`     | `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardExpMonth()`| `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardExpYear()` | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Coin()`              | `TBA`                                 | TBA               |
+| ✗    | Miscellaneous | `Coin()`              | N/A                                   | Flip a coin and returns 'head' or tail'. |
 | ✗    | Miscellaneous | `Dice()`              | `TBA`                                 | TBA               |
 | ✗    | Miscellaneous | `Guid()`              | `TBA`                                 | TBA               |
 | ✗    | Miscellaneous | `Hash()`              | `TBA`                                 | TBA               |
