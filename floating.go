@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// Generate a random float32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647)
+// Generate a random float32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647).
 func (c *Chance) Floating() float32 {
 	output, _ := c.FloatingWithParams(math.MinInt32, math.MaxInt32)
 	return output

@@ -7,7 +7,7 @@ import (
 	"github.com/rockacola/go-chance/data"
 )
 
-// Generate a random string with 5 characters
+// Generate a random string with a pool of common characters.
 func (c *Chance) String() string {
 	output := ""
 	length := 5

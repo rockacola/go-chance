@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// Generate a random int32 number between 0 and MaxInt32 (2,147,483,647)
+// Generate a random int32 number between 0 and MaxInt32 (2,147,483,647).
 func (c *Chance) Natural() int {
 	output, _ := c.NaturalWithParams(0, math.MaxInt32)
 	return output

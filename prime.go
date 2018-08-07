@@ -7,7 +7,7 @@ import (
 	"github.com/rockacola/go-chance/data"
 )
 
-// Generate a prime number between 1 and 10,000 inclusive
+// Generate a prime number between 1 and 10,000 inclusive.
 func (c *Chance) Prime() int {
 	randomIndex := c.Rand.Intn(len(data.Primes) - 1)
 	return data.Primes[randomIndex]

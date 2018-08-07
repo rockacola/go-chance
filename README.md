@@ -33,14 +33,14 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 
 | Done | Category      | Basic Method          | Advanced Method                       | Description       |
 | :--: | ------------- | --------------------- | ------------------------------------- | ----------------- |
-| ✓    | Basics        | `Bool()`              | `BoolWithParams(likelihood int)`      | Return a random boolean value. |
-| ✓    | Basics        | `Character()`         | `CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | TBA               |
-| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | TBA               |
-| ✓    | Basics        | `Integer()`           | `IntegerWithParams(min int, max int)` | TBA               |
-| ✓    | Basics        | `Letter()`            | `LetterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool)` | TBA               |
-| ✓    | Basics        | `Natural`             | `NaturalWithParams(min int, max int)` | Return a natural number. |
-| ✓    | Basics        | `Prime()`             | `PrimeWithParams(min int, max int)`   | TBA               |
-| ✓    | Basics        | `String()`            | `StringWithParams(length int, lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | TBA               |
+| ✓    | Basics        | `Bool()`              | `BoolWithParams(likelihood int)`      | Generate a random boolean value, either 'true' or 'false'. |
+| ✓    | Basics        | `Character()`         | `CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a single length string within a pool of common characters. |
+| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | Generate a random float32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647) |
+| ✓    | Basics        | `Integer()`           | `IntegerWithParams(min int, max int)` | Generate a random int32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647). |
+| ✓    | Basics        | `Letter()`            | `LetterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool)` | Generate a single length string within a pool of alphabetical characters. |
+| ✓    | Basics        | `Natural`             | `NaturalWithParams(min int, max int)` | Generate a random int32 number between 0 and MaxInt32 (2,147,483,647). |
+| ✓    | Basics        | `Prime()`             | `PrimeWithParams(min int, max int)`   | Generate a prime number between 1 and 10,000 inclusive. |
+| ✓    | Basics        | `String()`            | `StringWithParams(length int, lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a random string with a pool of common characters. |
 | ✗    | Text          | `Paragraph()`         | `TBA`                                 | TBA               |
 | ✗    | Text          | `Sentence()`          | `TBA`                                 | TBA               |
 | ✗    | Text          | `Syllable()`          | `TBA`                                 | TBA               |
@@ -56,7 +56,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Person        | `Prefix()`            | `TBA`                                 | TBA               |
 | ✗    | Person        | `Ssn()`               | `TBA`                                 | TBA               |
 | ✗    | Person        | `Suffix()`            | `TBA`                                 | TBA               |
-| ✓    | Things        | `Animal()`            | `AnimalWithParams(category string)`   | Generate a random animal. |
+| ✓    | Things        | `Animal()`            | `AnimalWithParams(category string)`   | Generate a random animal name within a pool of available animals. |
 | ✗    | Mobile        | `AndroidId()`         | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `AppleToken()`        | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `BlackBerryPin()`     | `TBA`                                 | TBA               |

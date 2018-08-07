@@ -1,6 +1,6 @@
 package chance
 
-// Generate a single length string within a pool of common characters
+// Generate a single length string within a pool of alphabetical characters.
 func (c *Chance) Letter() string {
 	output, _ := c.CharacterWithParams(true, true, false, false)
 	return output
