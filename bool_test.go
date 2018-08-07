@@ -11,7 +11,7 @@ func TestBool(t *testing.T) {
 
 func TestBoolWithParams(t *testing.T) {
 	c := NewChance()
-	likelihood = 0
+	likelihood := 0
 	var actual, err = c.BoolWithParams(likelihood)
 	if err != nil {
 		t.Errorf("BoolWithParams() execution error: %s", err.Error())
