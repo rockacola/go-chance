@@ -44,7 +44,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Text          | `Paragraph()`         | `TBA`                                 | TBA               |
 | ✗    | Text          | `Sentence()`          | `TBA`                                 | TBA               |
 | ✓    | Text          | `Syllable()`          | N/A                                   | Generate a semi-speakable syllable with 2 or 3 letters. |
-| ✗    | Text          | `Word()`              | `TBA`                                 | TBA               |
+| ✓    | Text          | `Word()`              | `WordWithParams(minSyllables int, maxSyllables int)` | Generate a semi-pronounceable nonsense word. |
 | ✗    | Person        | `Age()`               | `TBA`                                 | TBA               |
 | ✗    | Person        | `Birthday()`          | `TBA`                                 | TBA               |
 | ✗    | Person        | `Cf()`                | `TBA`                                 | TBA               |

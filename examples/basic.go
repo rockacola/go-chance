@@ -24,6 +24,7 @@ func main() {
 
 	// Text
 	fmt.Println("Syllable():", c.Syllable())
+	fmt.Println("Word():", c.Word())
 
 	// Things
 	fmt.Println("Animal():", c.Animal())
