@@ -20,6 +20,7 @@ func main() {
 	fmt.Println("Letter():", c.Letter())
 	fmt.Println("Natural():", c.Natural())
 	fmt.Println("Prime():", c.Prime())
+	fmt.Println("String():", c.String())
 
 	// Things
 	fmt.Println("Animal():", c.Animal())
