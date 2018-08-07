@@ -19,6 +19,7 @@ func main() {
 	fmt.Println("Integer():", c.Integer())
 	fmt.Println("Letter():", c.Letter())
 	fmt.Println("Natural():", c.Natural())
+	fmt.Println("Prime():", c.Prime())
 
 	// Things
 	fmt.Println("Animal():", c.Animal())
