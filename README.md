@@ -114,10 +114,10 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Finance       | `CreditCardExp()`     | `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardExpMonth()`| `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardExpYear()` | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Coin()`              | N/A                                   | Flip a coin and returns 'head' or tail'. |
+| ✓    | Miscellaneous | `Coin()`              | N/A                                   | Flip a coin and returns 'head' or tail'. |
 | ✗    | Miscellaneous | `Guid()`              | `TBA`                                 | TBA               |
 | ✗    | Miscellaneous | `Hash()`              | `TBA`                                 | TBA               |
 | ✗    | Miscellaneous | `Normal()`            | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Radio()`             | `TBA`                                 | TBA               |
+| ✓    | Miscellaneous | `Radio()`             | `RadioWithParams(side string)` | Generate a random radio call sign. |
 | ✗    | Miscellaneous | `Rpg()`               | `TBA`                                 | TBA               |
 | ✗    | Miscellaneous | `Tv()`                | `TBA`                                 | TBA               |

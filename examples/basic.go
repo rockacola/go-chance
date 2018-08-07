@@ -29,4 +29,8 @@ func main() {
 
 	// Things
 	fmt.Println("Animal():", c.Animal())
+
+	// Misc
+	fmt.Println("Coin():", c.Coin())
+	fmt.Println("Radio():", c.Radio())
 }
