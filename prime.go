@@ -22,19 +22,32 @@ func (c *Chance) PrimeWithParams(min int, max int) (int, error) {
 		return 0, errors.New("Min must be smaller than Max.")
 	}
 
-	// find biggest acceptable prime and its index
-	capIndex := len(data.Primes) - 1
-	capPrime := data.Primes[capIndex]
-	for capPrime > max {
-		capIndex -= 1
-		capPrime = data.Primes[capIndex]
+	// find smallest acceptable prime and its index
+	floorIndex := 0
+	floorPrime := data.Primes[floorIndex]
+	for floorPrime < min {
+		floorIndex += 1
+		floorPrime = data.Primes[floorIndex]
 	}
 
-	if min > capIndex {
+	// find biggest acceptable prime and its index
+	ceilingIndex := len(data.Primes) - 1
+	ceilingPrime := data.Primes[ceilingIndex]
+	for ceilingPrime > max {
+		ceilingIndex -= 1
+		ceilingPrime = data.Primes[ceilingIndex]
+	}
+
+	if floorIndex > ceilingIndex {
 		return 0, errors.New(fmt.Sprintf("Unable to find a prime number between %d and %d", min, max))
 	}
 
-	randomIndex := min + c.Rand.Intn(capIndex-min)
+	if floorIndex == ceilingIndex {
+		output := data.Primes[floorIndex]
+		return output, nil
+	}
+
+	randomIndex := floorIndex + c.Rand.Intn(ceilingIndex-floorIndex)
 	output := data.Primes[randomIndex]
 	return output, nil
 }
