@@ -1,6 +1,7 @@
 package chance
 
 import (
+	"errors"
 	"math"
 )
 
@@ -11,6 +12,14 @@ func (c *Chance) Integer() int {
 }
 
 func (c *Chance) IntegerWithParams(min int, max int) (int, error) {
+	if min > max {
+		return 0, errors.New("Min must be smaller than Max.")
+	}
+
+	if min == max {
+		return min, nil
+	}
+
 	output := min + c.Rand.Intn(max-min)
 	return output, nil
 }

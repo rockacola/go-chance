@@ -12,10 +12,8 @@ func (c *Chance) Floating() float32 {
 }
 
 func (c *Chance) FloatingWithParams(min int, max int) (float32, error) {
-	if min < math.MinInt32 {
-		return 0, errors.New("Min cannot be less than MinInt32.")
-	} else if max > math.MaxInt32 {
-		return 0, errors.New("Max cannot be greater than MaxInt32.")
+	if min > max {
+		return 0, errors.New("Min must be smaller than Max.")
 	}
 
 	output := float32(min) + c.Rand.Float32()*float32(max-min)

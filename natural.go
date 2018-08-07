@@ -14,8 +14,12 @@ func (c *Chance) Natural() int {
 func (c *Chance) NaturalWithParams(min int, max int) (int, error) {
 	if min < 0 {
 		return 0, errors.New("Min cannot be less than zero.")
-	} else if max > math.MaxInt32 {
-		return 0, errors.New("Max cannot be greater than MaxInt32.")
+	} else if min > max {
+		return 0, errors.New("Min must be smaller than Max.")
+	}
+
+	if min == max {
+		return min, nil
 	}
 
 	output := min + c.Rand.Intn(max-min)
