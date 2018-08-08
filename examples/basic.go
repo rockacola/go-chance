@@ -33,6 +33,7 @@ func main() {
 	// fmt.Println("Syllable():", c.Syllable())
 	// fmt.Println("Word():", c.Word())
 	// fmt.Println("Sentence():", c.Sentence())
+	// fmt.Println("Paragraph():", c.Paragraph())
 
 	// // Things
 	// fmt.Println("Animal():", c.Animal())
