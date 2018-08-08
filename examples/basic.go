@@ -26,19 +26,22 @@ func main() {
 	fmt.Println("Prime():", c.Prime())
 	fmt.Println("String():", c.String())
 
-	// Text
-	fmt.Println("Syllable():", c.Syllable())
-	fmt.Println("Word():", c.Word())
-	fmt.Println("Sentence():", c.Sentence())
+	// Person
+	fmt.Println("Age():", c.Age())
 
-	// Things
-	fmt.Println("Animal():", c.Animal())
+	// // Text
+	// fmt.Println("Syllable():", c.Syllable())
+	// fmt.Println("Word():", c.Word())
+	// fmt.Println("Sentence():", c.Sentence())
 
-	// Misc
-	fmt.Println("Coin():", c.Coin())
-	fmt.Println("Guid():", c.Guid())
-	fmt.Println("Radio():", c.Radio())
-	fmt.Println("Tv():", c.Tv())
-	fmt.Println("Hash():", c.Hash())
-	fmt.Println("Normal():", c.Normal())
+	// // Things
+	// fmt.Println("Animal():", c.Animal())
+
+	// // Misc
+	// fmt.Println("Coin():", c.Coin())
+	// fmt.Println("Guid():", c.Guid())
+	// fmt.Println("Radio():", c.Radio())
+	// fmt.Println("Tv():", c.Tv())
+	// fmt.Println("Hash():", c.Hash())
+	// fmt.Println("Normal():", c.Normal())
 }
