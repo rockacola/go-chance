@@ -35,7 +35,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | :--: | ------------- | --------------------- | ------------------------------------- | ----------------- |
 | ✓    | Basics        | `Bool()`              | `BoolWithParams(likelihood int)`      | Generate a random boolean value, either 'true' or 'false'. |
 | ✓    | Basics        | `Character()`         | `CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a single length string within a pool of common characters. |
-| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | Generate a random float32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647) |
+| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | Generate a random float64 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647) |
 | ✓    | Basics        | `Integer()`           | `IntegerWithParams(min int, max int)` | Generate a random int32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647). |
 | ✓    | Basics        | `Letter()`            | `LetterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool)` | Generate a single length string within a pool of alphabetical characters. |
 | ✓    | Basics        | `Natural`             | `NaturalWithParams(min int, max int)` | Generate a random int32 number between 0 and MaxInt32 (2,147,483,647). |
