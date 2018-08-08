@@ -42,9 +42,9 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Basics        | `Prime()`             | `PrimeWithParams(min int, max int)`   | Generate a prime number between 1 and 10,000 inclusive. |
 | ✓    | Basics        | `String()`            | `StringWithParams(length int, lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a random string with a pool of common characters. |
 | ✗    | Text          | `Paragraph()`         | `TBA`                                 | TBA               |
-| ✗    | Text          | `Sentence()`          | `TBA`                                 | TBA               |
-| ✗    | Text          | `Syllable()`          | `TBA`                                 | TBA               |
-| ✗    | Text          | `Word()`              | `TBA`                                 | TBA               |
+| ✗    | Text          | `Sentence()`          | `SentenceWithParams(minWords int, maxWords int)` | Generate a semi-pronounceable nonsense word. |
+| ✓    | Text          | `Syllable()`          | N/A                                   | Generate a semi-speakable syllable with 2 or 3 letters. |
+| ✓    | Text          | `Word()`              | `WordWithParams(minSyllables int, maxSyllables int)` | Generate a semi-pronounceable nonsense word. |
 | ✗    | Person        | `Age()`               | `TBA`                                 | TBA               |
 | ✗    | Person        | `Birthday()`          | `TBA`                                 | TBA               |
 | ✗    | Person        | `Cf()`                | `TBA`                                 | TBA               |
@@ -114,11 +114,9 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Finance       | `CreditCardExp()`     | `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardExpMonth()`| `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardExpYear()` | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Coin()`              | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Dice()`              | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Guid()`              | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Hash()`              | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Normal()`            | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Radio()`             | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Rpg()`               | `TBA`                                 | TBA               |
-| ✗    | Miscellaneous | `Tv()`                | `TBA`                                 | TBA               |
+| ✓    | Miscellaneous | `Coin()`              | N/A                                   | Flip a coin and returns 'head' or tail'. |
+| ✓    | Miscellaneous | `Guid()`              | `GuidWithParams(version int)`         | Generate a random Globally Unique Identifier. |
+| ✓    | Miscellaneous | `Hash()`              | `HashWithParams(length int, toUpperCase bool)` | Generate a random hex hash. |
+| ✓    | Miscellaneous | `Normal()`            | `NormalWithParams(mean int, deviation int)` | Return a normally-distributed random variate. |
+| ✓    | Miscellaneous | `Radio()`             | `RadioWithParams(side string)`        | Generate a random radio call sign. |
+| ✓    | Miscellaneous | `Tv()`                | `TvWithParams(side string)`           | Generate a TV station call sign. This is an alias for Radio() since they both follow the same rules. |
