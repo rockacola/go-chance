@@ -7,7 +7,7 @@ import (
 	"github.com/rockacola/go-chance/data"
 )
 
-// Generate a random Globally Unique Identifier
+// Generate a random Globally Unique Identifier.
 func (c *Chance) Guid() string {
 	result, _ := c.GuidWithParams(5)
 	return result
