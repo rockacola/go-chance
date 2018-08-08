@@ -16,6 +16,10 @@ func (c *Chance) FloatingWithParams(min int, max int) (float64, error) {
 		return 0, errors.New("Min must be smaller than Max.")
 	}
 
+	if min == max {
+		return float64(min), nil
+	}
+
 	output := float64(min) + c.Rand.Float64()*float64(max-min)
 	return output, nil
 }
