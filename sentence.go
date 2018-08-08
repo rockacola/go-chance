@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// Generate a semi-pronounceable nonsense word.
+// Generate a sentence of semi-pronounceable nonsense word.
 func (c *Chance) Sentence() string {
 	output, _ := c.SentenceWithParams(12, 18)
 	return output
@@ -26,6 +26,6 @@ func (c *Chance) SentenceWithParams(minWords int, maxWords int) (string, error) 
 		w := c.Word()
 		words = append(words, w)
 	}
-	output := strings.Join(words, " ")
+	output := strings.Join(words, " ") + "."
 	return output, nil
 }
