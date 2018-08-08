@@ -28,6 +28,7 @@ func main() {
 
 	// Person
 	fmt.Println("Age():", c.Age())
+	fmt.Println("CPF():", c.Cpf())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

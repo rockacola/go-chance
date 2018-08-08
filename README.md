@@ -48,7 +48,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Person        | `Age()`               | `AgeWithParams(category string)`      | Generate a random age. |
 | ✗    | Person        | `Birthday()`          | `TBA`                                 | TBA               |
 | ✗    | Person        | `Cf()`                | `TBA`                                 | TBA               |
-| ✗    | Person        | `Cpf()`               | `TBA`                                 | TBA               |
+| ✓    | Person        | `Cpf()`               | N/A                                   | Generate a random Brazilian tax identifier. |
 | ✗    | Person        | `First()`             | `TBA`                                 | TBA               |
 | ✗    | Person        | `Gender()`            | `TBA`                                 | TBA               |
 | ✗    | Person        | `Last()`              | `TBA`                                 | TBA               |
