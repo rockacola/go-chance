@@ -12,6 +12,10 @@ func main() {
 	// Arrange
 	c := chance.NewChance()
 
+	// Rand
+	fmt.Println("Rand.Float32():", c.Rand.Float32())
+	fmt.Println("Rand.Float64():", c.Rand.Float64())
+
 	// Basics
 	fmt.Println("Bool():", c.Bool())
 	fmt.Println("Character():", c.Character())
@@ -35,4 +39,5 @@ func main() {
 	fmt.Println("Radio():", c.Radio())
 	fmt.Println("Tv():", c.Tv())
 	fmt.Println("Hash():", c.Hash())
+	fmt.Println("Normal():", c.Normal())
 }

@@ -117,7 +117,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Miscellaneous | `Coin()`              | N/A                                   | Flip a coin and returns 'head' or tail'. |
 | ✗    | Miscellaneous | `Guid()`              | `TBA`                                 | TBA               |
 | ✓    | Miscellaneous | `Hash()`              | `HashWithParams(length int, toUpperCase bool)` | Generate a random hex hash. |
-| ✗    | Miscellaneous | `Normal()`            | `TBA`                                 | TBA               |
+| ✓    | Miscellaneous | `Normal()`            | `NormalWithParams(mean int, deviation int)` | Return a normally-distributed random variate. |
 | ✓    | Miscellaneous | `Radio()`             | `RadioWithParams(side string)`        | Generate a random radio call sign. |
 | ✗    | Miscellaneous | `Rpg()`               | `TBA`                                 | TBA               |
 | ✓    | Miscellaneous | `Tv()`                | `TvWithParams(side string)`           | Generate a TV station call sign. This is an alias for Radio() since they both follow the same rules. |
