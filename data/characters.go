@@ -7,4 +7,5 @@ var Characters = map[string]string{
 	"symbol":    "!@#$%^&*()",
 	"consonant": "bcdfghjklmnprstvwz",
 	"vowel":     "aeiou",
+	"hex":       "0123456789abcdef",
 }

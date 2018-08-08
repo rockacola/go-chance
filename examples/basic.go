@@ -34,4 +34,5 @@ func main() {
 	fmt.Println("Coin():", c.Coin())
 	fmt.Println("Radio():", c.Radio())
 	fmt.Println("Tv():", c.Tv())
+	fmt.Println("Hash():", c.Hash())
 }
