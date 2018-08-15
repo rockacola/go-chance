@@ -51,7 +51,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Person        | `Cpf()`               | N/A                                   | Generate a random Brazilian tax identifier. |
 | ✓    | Person        | `FirstName()`         | `FirstNameWithParams(gender string, nationality string)` | Generate a random first name. |
 | ✓    | Person        | `Gender()`            | `GenderWithparams(extraGenders []string)` | Generate a random gender. |
-| ✗    | Person        | `Last()`              | `TBA`                                 | TBA               |
+| ✓    | Person        | `LastName()`          | `LastNameWithParams(nationality string)` | Generate a random last name. |
 | ✗    | Person        | `Name()`              | `TBA`                                 | TBA               |
 | ✗    | Person        | `Prefix()`            | `TBA`                                 | TBA               |
 | ✗    | Person        | `Ssn()`               | `TBA`                                 | TBA               |
