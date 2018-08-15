@@ -35,22 +35,22 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | :--: | ------------- | --------------------- | ------------------------------------- | ----------------- |
 | ✓    | Basics        | `Bool()`              | `BoolWithParams(likelihood int)`      | Generate a random boolean value, either 'true' or 'false'. |
 | ✓    | Basics        | `Character()`         | `CharacterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a single length string within a pool of common characters. |
-| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | Generate a random float32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647) |
+| ✓    | Basics        | `Floating()`          | `FloatingWithParams(min int, max int)` | Generate a random float64 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647) |
 | ✓    | Basics        | `Integer()`           | `IntegerWithParams(min int, max int)` | Generate a random int32 number between MinInt32 (-2,147,483,648) and MaxInt32 (2,147,483,647). |
 | ✓    | Basics        | `Letter()`            | `LetterWithParams(lowerCaseAlphabets bool, upperCaseAlphabets bool)` | Generate a single length string within a pool of alphabetical characters. |
 | ✓    | Basics        | `Natural`             | `NaturalWithParams(min int, max int)` | Generate a random int32 number between 0 and MaxInt32 (2,147,483,647). |
 | ✓    | Basics        | `Prime()`             | `PrimeWithParams(min int, max int)`   | Generate a prime number between 1 and 10,000 inclusive. |
 | ✓    | Basics        | `String()`            | `StringWithParams(length int, lowerCaseAlphabets bool, upperCaseAlphabets bool, numerics bool, symbols bool)` | Generate a random string with a pool of common characters. |
-| ✗    | Text          | `Paragraph()`         | `TBA`                                 | TBA               |
-| ✗    | Text          | `Sentence()`          | `SentenceWithParams(minWords int, maxWords int)` | Generate a semi-pronounceable nonsense word. |
+| ✓    | Text          | `Paragraph()`         | `ParagraphWithParams(minSentences int, maxSentences int)` | Generate a paragraph of semi-pronounceable nonsense word. |
+| ✓    | Text          | `Sentence()`          | `SentenceWithParams(minWords int, maxWords int)` | Generate a sentence of semi-pronounceable nonsense word. |
 | ✓    | Text          | `Syllable()`          | N/A                                   | Generate a semi-speakable syllable with 2 or 3 letters. |
 | ✓    | Text          | `Word()`              | `WordWithParams(minSyllables int, maxSyllables int)` | Generate a semi-pronounceable nonsense word. |
-| ✗    | Person        | `Age()`               | `TBA`                                 | TBA               |
+| ✓    | Person        | `Age()`               | `AgeWithParams(category string)`      | Generate a random age. |
 | ✗    | Person        | `Birthday()`          | `TBA`                                 | TBA               |
 | ✗    | Person        | `Cf()`                | `TBA`                                 | TBA               |
-| ✗    | Person        | `Cpf()`               | `TBA`                                 | TBA               |
-| ✗    | Person        | `First()`             | `TBA`                                 | TBA               |
-| ✗    | Person        | `Gender()`            | `TBA`                                 | TBA               |
+| ✓    | Person        | `Cpf()`               | N/A                                   | Generate a random Brazilian tax identifier. |
+| ✓    | Person        | `FirstName()`         | `FirstNameWithParams(gender string, nationality string)` | Generate a random first name. |
+| ✓    | Person        | `Gender()`            | `GenderWithparams(extraGenders []string)` | Generate a random gender. |
 | ✗    | Person        | `Last()`              | `TBA`                                 | TBA               |
 | ✗    | Person        | `Name()`              | `TBA`                                 | TBA               |
 | ✗    | Person        | `Prefix()`            | `TBA`                                 | TBA               |
