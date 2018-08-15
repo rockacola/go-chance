@@ -34,13 +34,8 @@ func (c *Chance) NamePrefixWithParams(full bool, gender string) (string, error) 
 		return "", errors.New("Invalid gender.")
 	}
 
-	var prefixObj map[string]string
-	if len(pool) == 1 {
-		prefixObj = pool[0]
-	} else {
-		randomIndex := c.Rand.Intn(len(pool) - 1)
-		prefixObj = pool[randomIndex]
-	}
+	randomIndex := c.Rand.Intn(len(pool))
+	prefixObj := pool[randomIndex]
 
 	var output string
 	if full {

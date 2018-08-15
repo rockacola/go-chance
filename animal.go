@@ -11,7 +11,7 @@ import (
 func (c *Chance) Animal() string {
 	categories := reflect.ValueOf(data.Animals).MapKeys()
 	category := categories[0].Interface().(string) // Golang natively randomize its key orders, hence simply picking the first item is sufficient.
-	randomIndex := c.Rand.Intn(len(data.Animals[category]) - 1)
+	randomIndex := c.Rand.Intn(len(data.Animals[category]))
 	return data.Animals[category][randomIndex]
 }
 
@@ -21,7 +21,7 @@ func (c *Chance) AnimalWithParams(category string) (string, error) {
 		return "", errors.New("Invalid animal category.")
 	}
 
-	randomIndex := c.Rand.Intn(len(animalsOfCategory) - 1)
+	randomIndex := c.Rand.Intn(len(animalsOfCategory))
 	output := animalsOfCategory[randomIndex]
 	return output, nil
 }

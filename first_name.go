@@ -13,7 +13,7 @@ func (c *Chance) FirstName() string {
 	gender := genders[0].Interface().(string) // Golang natively randomize its key orders, hence simply picking the first item is sufficient.
 	nationalities := reflect.ValueOf(data.FirstNames[gender]).MapKeys()
 	nationality := nationalities[0].Interface().(string)
-	randomIndex := c.Rand.Intn(len(data.FirstNames[gender][nationality]) - 1)
+	randomIndex := c.Rand.Intn(len(data.FirstNames[gender][nationality]))
 	return data.FirstNames[gender][nationality][randomIndex]
 }
 
@@ -31,7 +31,7 @@ func (c *Chance) FirstNameWithParams(gender string, nationality string) (string,
 		return "", errors.New("Invalid name nationality.")
 	}
 
-	randomIndex := c.Rand.Intn(len(namesOfGenderNationality) - 1)
+	randomIndex := c.Rand.Intn(len(namesOfGenderNationality))
 	output := namesOfGenderNationality[randomIndex]
 	return output, nil
 }

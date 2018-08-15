@@ -11,7 +11,7 @@ import (
 func (c *Chance) LastName() string {
 	nationalities := reflect.ValueOf(data.LastNames).MapKeys()
 	nationality := nationalities[0].Interface().(string)
-	randomIndex := c.Rand.Intn(len(data.LastNames[nationality]) - 1)
+	randomIndex := c.Rand.Intn(len(data.LastNames[nationality]))
 	return data.LastNames[nationality][randomIndex]
 }
 
@@ -21,7 +21,7 @@ func (c *Chance) LastNameWithParams(nationality string) (string, error) {
 		return "", errors.New("Invalid name nationality.")
 	}
 
-	randomIndex := c.Rand.Intn(len(namesOfNationality) - 1)
+	randomIndex := c.Rand.Intn(len(namesOfNationality))
 	output := namesOfNationality[randomIndex]
 	return output, nil
 }
