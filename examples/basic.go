@@ -30,6 +30,7 @@ func main() {
 	fmt.Println("Age():", c.Age())
 	fmt.Println("CPF():", c.Cpf())
 	fmt.Println("FirstName():", c.FirstName())
+	fmt.Println("Gender():", c.Gender())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
