@@ -49,7 +49,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Person        | `Birthday()`          | `TBA`                                 | TBA               |
 | ✗    | Person        | `Cf()`                | `TBA`                                 | TBA               |
 | ✓    | Person        | `Cpf()`               | N/A                                   | Generate a random Brazilian tax identifier. |
-| ✗    | Person        | `First()`             | `TBA`                                 | TBA               |
+| ✓    | Person        | `FirstName()`         | `FirstNameWithParams(gender string, nationality string)` | Generate a random first name. |
 | ✗    | Person        | `Gender()`            | `TBA`                                 | TBA               |
 | ✗    | Person        | `Last()`              | `TBA`                                 | TBA               |
 | ✗    | Person        | `Name()`              | `TBA`                                 | TBA               |
