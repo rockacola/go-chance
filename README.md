@@ -55,7 +55,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Person        | `Name()`              | `TBA`                                 | TBA               |
 | ✓    | Person        | `NamePrefix()`        | `NamePrefixWithParams(full bool, gender string)` | Generate a random name prefix. |
 | ✗    | Person        | `Ssn()`               | `TBA`                                 | TBA               |
-| ✗    | Person        | `Suffix()`            | `TBA`                                 | TBA               |
+| ✓    | Person        | `NameSuffix()`        | `NamePrefixWithParams(full bool)`     | Generate a random name suffix. |
 | ✓    | Things        | `Animal()`            | `AnimalWithParams(category string)`   | Generate a random animal name within a pool of available animals. |
 | ✗    | Mobile        | `AndroidId()`         | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `AppleToken()`        | `TBA`                                 | TBA               |
