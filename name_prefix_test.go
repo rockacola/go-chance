@@ -8,7 +8,7 @@ func TestNamePrefix(t *testing.T) {
 	c := NewChance()
 	actual := c.NamePrefix()
 	if len(actual) <= 1 {
-		t.Errorf("LastName() was incorrect, expect: [1 or more characters], actual: %s.", actual)
+		t.Errorf("NamePrefix() was incorrect, expect: [1 or more characters], actual: %s.", actual)
 	}
 }
 
