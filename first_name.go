@@ -18,6 +18,10 @@ func (c *Chance) FirstName() string {
 }
 
 func (c *Chance) FirstNameWithParams(gender string, nationality string) (string, error) {
+	if gender == "all" {
+		gender = c.Gender()
+	}
+
 	namesOfGender := data.FirstNames[gender]
 	if len(namesOfGender) <= 0 {
 		return "", errors.New("Invalid name gender.")
