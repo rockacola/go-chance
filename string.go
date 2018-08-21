@@ -53,7 +53,7 @@ func (c *Chance) StringWithParams(length int, lowerCaseAlphabets bool, upperCase
 func (c *Chance) stringFromPool(length int, pool string) string {
 	output := ""
 	for i := 0; i < length; i++ {
-		randomIndex := c.Rand.Intn(len(pool) - 1)
+		randomIndex := c.Rand.Intn(len(pool))
 		output += string(pool[randomIndex])
 	}
 	return output

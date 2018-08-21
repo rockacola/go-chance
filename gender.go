@@ -11,7 +11,7 @@ func (c *Chance) Gender() string {
 
 func (c *Chance) GenderWithParams(extraGenders []string) (string, error) {
 	genders := append(extraGenders, "male", "female")
-	randomIndex := c.Rand.Intn(len(genders) - 1)
+	randomIndex := c.Rand.Intn(len(genders))
 	output := genders[randomIndex]
 	return output, nil
 }
