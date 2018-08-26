@@ -39,6 +39,8 @@ func main() {
 	// Mobile
 	fmt.Println("AndroidId():", c.AndroidId())
 	fmt.Println("AppleToken():", c.AppleToken())
+	fmt.Println("BlackBerryPin():", c.BlackBerryPin())
+	fmt.Println("Wp7Anid():", c.Wp7Anid())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
