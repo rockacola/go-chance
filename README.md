@@ -57,7 +57,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Person        | `Ssn()`               | `SsnWithParams(ssnFour bool, dashes bool)` | Generate a random social security number. |
 | ✓    | Person        | `NameSuffix()`        | `NamePrefixWithParams(full bool)`     | Generate a random name suffix. |
 | ✓    | Things        | `Animal()`            | `AnimalWithParams(category string)`   | Generate a random animal name within a pool of available animals. |
-| ✗    | Mobile        | `AndroidId()`         | `TBA`                                 | TBA               |
+| ✓    | Mobile        | `AndroidId()`         | N/A                                   | Generate an Android GCM Registration identifier. |
 | ✗    | Mobile        | `AppleToken()`        | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `BlackBerryPin()`     | `TBA`                                 | TBA               |
 | ✗    | Mobile        | `W7Anid()`            | `TBA`                                 | TBA               |

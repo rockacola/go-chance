@@ -26,15 +26,18 @@ func main() {
 	fmt.Println("Prime():", c.Prime())
 	fmt.Println("String():", c.String())
 
-	// Person
-	fmt.Println("Age():", c.Age())
-	fmt.Println("CPF():", c.Cpf())
-	fmt.Println("FirstName():", c.FirstName())
-	fmt.Println("Gender():", c.Gender())
-	fmt.Println("LastName():", c.LastName())
-	fmt.Println("NamePrefix():", c.NamePrefix())
-	fmt.Println("NameSuffix():", c.NameSuffix())
-	fmt.Println("Name():", c.Name())
+	// // Person
+	// fmt.Println("Age():", c.Age())
+	// fmt.Println("CPF():", c.Cpf())
+	// fmt.Println("FirstName():", c.FirstName())
+	// fmt.Println("Gender():", c.Gender())
+	// fmt.Println("LastName():", c.LastName())
+	// fmt.Println("NamePrefix():", c.NamePrefix())
+	// fmt.Println("NameSuffix():", c.NameSuffix())
+	// fmt.Println("Name():", c.Name())
+
+	// Mobile
+	fmt.Println("AndroidId():", c.AndroidId())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
