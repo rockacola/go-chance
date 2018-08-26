@@ -52,7 +52,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Person        | `FirstName()`         | `FirstNameWithParams(gender string, nationality string)` | Generate a random first name. |
 | ✓    | Person        | `Gender()`            | `GenderWithparams(extraGenders []string)` | Generate a random gender. |
 | ✓    | Person        | `LastName()`          | `LastNameWithParams(nationality string)` | Generate a random last name. |
-| ✗    | Person        | `Name()`              | `TBA`                                 | TBA               |
+| ✓    | Person        | `Name()`              | `NameWithParams(middleName bool, prefix bool, suffix bool, gender string, nationality string)` | Generate a random name. |
 | ✓    | Person        | `NamePrefix()`        | `NamePrefixWithParams(full bool, gender string)` | Generate a random name prefix. |
 | ✓    | Person        | `Ssn()`               | `SsnWithParams(ssnFour bool, dashes bool)` | Generate a random social security number. |
 | ✓    | Person        | `NameSuffix()`        | `NamePrefixWithParams(full bool)`     | Generate a random name suffix. |

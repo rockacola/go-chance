@@ -34,6 +34,7 @@ func main() {
 	fmt.Println("LastName():", c.LastName())
 	fmt.Println("NamePrefix():", c.NamePrefix())
 	fmt.Println("NameSuffix():", c.NameSuffix())
+	fmt.Println("Name():", c.Name())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
