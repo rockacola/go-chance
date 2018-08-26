@@ -41,6 +41,7 @@ func main() {
 	fmt.Println("AppleToken():", c.AppleToken())
 	fmt.Println("BlackBerryPin():", c.BlackBerryPin())
 	fmt.Println("Wp7Anid():", c.Wp7Anid())
+	fmt.Println("Wp8Anid2():", c.Wp8Anid2())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

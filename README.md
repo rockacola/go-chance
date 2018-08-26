@@ -60,8 +60,8 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Mobile        | `AndroidId()`         | N/A                                   | Generate a random Android GCM Registration identifier. |
 | ✓    | Mobile        | `AppleToken()`        | N/A                                   | Generate a random Apple Push Token. |
 | ✓    | Mobile        | `BlackBerryPin()`     | N/A                                   | Generate a random BlackBerry Device PIN. |
-| ✓    | Mobile        | `Wp7Anid()`            | N/A                                  | Generate a random Windows Phone 7 ANID. |
-| ✗    | Mobile        | `W8Anid2()`           | `TBA`                                 | TBA               |
+| ✓    | Mobile        | `Wp7Anid()`           | N/A                                   | Generate a random Windows Phone 7 ANID. |
+| ✓    | Mobile        | `Wp8Anid2()`          | N/A                                   | Generate a random Windows Phone 8 ANID2. |
 | ✗    | Web           | `Avatar()`            | `TBA`                                 | TBA               |
 | ✗    | Web           | `Color()`             | `TBA`                                 | TBA               |
 | ✗    | Web           | `Company()`           | `TBA`                                 | TBA               |
