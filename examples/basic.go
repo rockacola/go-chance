@@ -38,6 +38,7 @@ func main() {
 
 	// Mobile
 	fmt.Println("AndroidId():", c.AndroidId())
+	fmt.Println("AppleToken():", c.AppleToken())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
