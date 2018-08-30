@@ -12,7 +12,7 @@ func TestDomain(t *testing.T) {
 	}
 }
 
-func TestDomainParams(t *testing.T) {
+func TestDomainWithParams(t *testing.T) {
 	c := NewChance()
 	tld := "com"
 	actual, err := c.DomainWithParams(tld)
