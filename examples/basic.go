@@ -50,6 +50,7 @@ func main() {
 	fmt.Println("Company():", c.Company())
 	fmt.Println("FacebookId():", c.FacebookId())
 	fmt.Println("GoogleAnalytics():", c.GoogleAnalytics())
+	fmt.Println("Hashtag():", c.Hashtag())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
