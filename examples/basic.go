@@ -52,6 +52,7 @@ func main() {
 	fmt.Println("GoogleAnalytics():", c.GoogleAnalytics())
 	fmt.Println("Hashtag():", c.Hashtag())
 	fmt.Println("Ip():", c.Ip())
+	fmt.Println("Ipv6():", c.Ipv6())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
