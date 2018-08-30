@@ -51,6 +51,7 @@ func main() {
 	fmt.Println("FacebookId():", c.FacebookId())
 	fmt.Println("GoogleAnalytics():", c.GoogleAnalytics())
 	fmt.Println("Hashtag():", c.Hashtag())
+	fmt.Println("Ip():", c.Ip())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

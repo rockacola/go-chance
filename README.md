@@ -70,7 +70,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `FacebookId()`        | N/A                                   | Generate a random Facebook ID. |
 | ✓    | Web           | `GoogleAnalytics()`   | N/A                                   | Generate a random Google Analytics tracking code. |
 | ✓    | Web           | `Hashtag()`           | N/A                                   | Generate a random hashtag. |
-| ✗    | Web           | `Ip()`                | `TBA`                                 | TBA               |
+| ✓    | Web           | `Ip()`                | N/A                                   | Generate a random IP address. |
 | ✗    | Web           | `Ipv6()`              | `TBA`                                 | TBA               |
 | ✗    | Web           | `Klout()`             | `TBA`                                 | TBA               |
 | ✗    | Web           | `Profession()`        | `TBA`                                 | TBA               |
