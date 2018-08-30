@@ -46,6 +46,7 @@ func main() {
 	// Web
 	fmt.Println("Tld():", c.Tld())
 	fmt.Println("Domain():", c.Domain())
+	fmt.Println("Email():", c.Email())
 	fmt.Println("Company():", c.Company())
 
 	// // Text

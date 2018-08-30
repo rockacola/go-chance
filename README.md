@@ -66,7 +66,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Web           | `Color()`             | `TBA`                                 | TBA               |
 | ✓    | Web           | `Company()`           | N/A                                   | Generate a random company name. |
 | ✓    | Web           | `Domain()`            | `DomainWithParams(tld string)`        | Generate a random domain name with TLD. |
-| ✗    | Web           | `Email()`             | `TBA`                                 | TBA               |
+| ✓    | Web           | `Email()`             | `EmailWithParams(domain string)`      | Generate a random email address. |
 | ✗    | Web           | `FacebookId()`        | `TBA`                                 | TBA               |
 | ✗    | Web           | `GoogleAnalytics()`   | `TBA`                                 | TBA               |
 | ✗    | Web           | `HashTag()`           | `TBA`                                 | TBA               |
