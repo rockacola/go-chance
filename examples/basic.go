@@ -45,6 +45,7 @@ func main() {
 
 	// Web
 	fmt.Println("Tld():", c.Tld())
+	fmt.Println("Domain():", c.Domain())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
