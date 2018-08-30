@@ -74,7 +74,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Web           | `Ipv6()`              | `TBA`                                 | TBA               |
 | ✗    | Web           | `Klout()`             | `TBA`                                 | TBA               |
 | ✗    | Web           | `Profession()`        | `TBA`                                 | TBA               |
-| ✗    | Web           | `Tld()`               | `TBA`                                 | TBA               |
+| ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
 | ✗    | Web           | `Twitter()`           | `TBA`                                 | TBA               |
 | ✗    | Web           | `Url()`               | `TBA`                                 | TBA               |
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |

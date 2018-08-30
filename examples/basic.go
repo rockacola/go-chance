@@ -37,11 +37,14 @@ func main() {
 	// fmt.Println("Name():", c.Name())
 
 	// Mobile
-	fmt.Println("AndroidId():", c.AndroidId())
-	fmt.Println("AppleToken():", c.AppleToken())
-	fmt.Println("BlackBerryPin():", c.BlackBerryPin())
-	fmt.Println("Wp7Anid():", c.Wp7Anid())
-	fmt.Println("Wp8Anid2():", c.Wp8Anid2())
+	// fmt.Println("AndroidId():", c.AndroidId())
+	// fmt.Println("AppleToken():", c.AppleToken())
+	// fmt.Println("BlackBerryPin():", c.BlackBerryPin())
+	// fmt.Println("Wp7Anid():", c.Wp7Anid())
+	// fmt.Println("Wp8Anid2():", c.Wp8Anid2())
+
+	// Web
+	fmt.Println("Tld():", c.Tld())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
