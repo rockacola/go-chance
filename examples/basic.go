@@ -48,6 +48,7 @@ func main() {
 	fmt.Println("Domain():", c.Domain())
 	fmt.Println("Email():", c.Email())
 	fmt.Println("Company():", c.Company())
+	fmt.Println("FacebookId():", c.FacebookId())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
