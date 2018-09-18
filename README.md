@@ -73,7 +73,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `Ip()`                | N/A                                   | Generate a random IP address. |
 | ✓    | Web           | `Ipv6()`              | N/A                                   | Generate a random IPv6 address. |
 | ✓    | Web           | `Klout()`             | N/A                                   | Generate a random Klout score. Range 1-99. |
-| ✗    | Web           | `Profession()`        | `TBA`                                 | TBA               |
+| ✓    | Web           | `Profession()`        | `ProfessionWithParams(rank bool)`     | Generate a random profession. |
 | ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
 | ✗    | Web           | `Twitter()`           | `TBA`                                 | TBA               |
 | ✗    | Web           | `Url()`               | `TBA`                                 | TBA               |

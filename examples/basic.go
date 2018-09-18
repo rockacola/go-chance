@@ -54,6 +54,7 @@ func main() {
 	fmt.Println("Ip():", c.Ip())
 	fmt.Println("Ipv6():", c.Ipv6())
 	fmt.Println("Klout():", c.Klout())
+	fmt.Println("Profession():", c.Profession())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
