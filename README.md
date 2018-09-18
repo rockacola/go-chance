@@ -64,17 +64,17 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Mobile        | `Wp8Anid2()`          | N/A                                   | Generate a random Windows Phone 8 ANID2. |
 | ✗    | Web           | `Avatar()`            | `TBA`                                 | TBA               |
 | ✗    | Web           | `Color()`             | `TBA`                                 | TBA               |
-| ✗    | Web           | `Company()`           | `TBA`                                 | TBA               |
-| ✗    | Web           | `Domain()`            | `TBA`                                 | TBA               |
-| ✗    | Web           | `Email()`             | `TBA`                                 | TBA               |
-| ✗    | Web           | `FacebookId()`        | `TBA`                                 | TBA               |
-| ✗    | Web           | `GoogleAnalytics()`   | `TBA`                                 | TBA               |
-| ✗    | Web           | `HashTag()`           | `TBA`                                 | TBA               |
-| ✗    | Web           | `Ip()`                | `TBA`                                 | TBA               |
-| ✗    | Web           | `Ipv6()`              | `TBA`                                 | TBA               |
-| ✗    | Web           | `Klout()`             | `TBA`                                 | TBA               |
-| ✗    | Web           | `Profession()`        | `TBA`                                 | TBA               |
-| ✗    | Web           | `Tld()`               | `TBA`                                 | TBA               |
+| ✓    | Web           | `Company()`           | N/A                                   | Generate a random company name. |
+| ✓    | Web           | `Domain()`            | `DomainWithParams(tld string)`        | Generate a random domain name with TLD. |
+| ✓    | Web           | `Email()`             | `EmailWithParams(domain string)`      | Generate a random email address. |
+| ✓    | Web           | `FacebookId()`        | N/A                                   | Generate a random Facebook ID. |
+| ✓    | Web           | `GoogleAnalytics()`   | N/A                                   | Generate a random Google Analytics tracking code. |
+| ✓    | Web           | `Hashtag()`           | N/A                                   | Generate a random hashtag. |
+| ✓    | Web           | `Ip()`                | N/A                                   | Generate a random IP address. |
+| ✓    | Web           | `Ipv6()`              | N/A                                   | Generate a random IPv6 address. |
+| ✓    | Web           | `Klout()`             | N/A                                   | Generate a random Klout score. Range 1-99. |
+| ✓    | Web           | `Profession()`        | `ProfessionWithParams(rank bool)`     | Generate a random profession. |
+| ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
 | ✗    | Web           | `Twitter()`           | `TBA`                                 | TBA               |
 | ✗    | Web           | `Url()`               | `TBA`                                 | TBA               |
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |
