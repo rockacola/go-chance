@@ -71,8 +71,8 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `GoogleAnalytics()`   | N/A                                   | Generate a random Google Analytics tracking code. |
 | ✓    | Web           | `Hashtag()`           | N/A                                   | Generate a random hashtag. |
 | ✓    | Web           | `Ip()`                | N/A                                   | Generate a random IP address. |
-| ✗    | Web           | `Ipv6()`              | N/A                                   | Generate a random IPv6 address. |
-| ✗    | Web           | `Klout()`             | `TBA`                                 | TBA               |
+| ✓    | Web           | `Ipv6()`              | N/A                                   | Generate a random IPv6 address. |
+| ✓    | Web           | `Klout()`             | N/A                                   | Generate a random Klout score. Range 1-99. |
 | ✗    | Web           | `Profession()`        | `TBA`                                 | TBA               |
 | ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
 | ✗    | Web           | `Twitter()`           | `TBA`                                 | TBA               |

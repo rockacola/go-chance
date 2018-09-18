@@ -53,6 +53,7 @@ func main() {
 	fmt.Println("Hashtag():", c.Hashtag())
 	fmt.Println("Ip():", c.Ip())
 	fmt.Println("Ipv6():", c.Ipv6())
+	fmt.Println("Klout():", c.Klout())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
