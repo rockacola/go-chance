@@ -76,7 +76,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `Profession()`        | `ProfessionWithParams(rank bool)`     | Generate a random profession. |
 | ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
 | ✓    | Web           | `Twitter()`           | N/A                                   | Generate a random Twitter handler. |
-| ✗    | Web           | `Url()`               | `TBA`                                 | TBA               |
+| ✓    | Web           | `Url()`               | N/A                                   | Generate a random URL. |
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Altitude()`          | `TBA`                                 | TBA               |
 | ✗    | Location      | `AreaCode()`          | `TBA`                                 | TBA               |
