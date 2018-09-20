@@ -80,7 +80,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Altitude()`          | `TBA`                                 | TBA               |
 | ✗    | Location      | `AreaCode()`          | `TBA`                                 | TBA               |
-| ✗    | Location      | `City()`              | `TBA`                                 | TBA               |
+| ✓    | Location      | `City()`              | N/A                                   | Generate a random city name. |
 | ✗    | Location      | `Coordinates()`       | `TBA`                                 | TBA               |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Depth()`             | `TBA`                                 | TBA               |

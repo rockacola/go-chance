@@ -58,6 +58,9 @@ func main() {
 	fmt.Println("Twitter():", c.Twitter())
 	fmt.Println("Url():", c.Url())
 
+	// Location
+	fmt.Println("City():", c.City())
+
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
 	// fmt.Println("Word():", c.Word())
