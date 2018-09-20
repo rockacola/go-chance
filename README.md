@@ -75,7 +75,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `Klout()`             | N/A                                   | Generate a random Klout score. Range 1-99. |
 | ✓    | Web           | `Profession()`        | `ProfessionWithParams(rank bool)`     | Generate a random profession. |
 | ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
-| ✗    | Web           | `Twitter()`           | `TBA`                                 | TBA               |
+| ✓    | Web           | `Twitter()`           | N/A                                   | Generate a random Twitter handler. |
 | ✗    | Web           | `Url()`               | `TBA`                                 | TBA               |
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Altitude()`          | `TBA`                                 | TBA               |
