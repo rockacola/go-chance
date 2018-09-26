@@ -81,7 +81,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Location      | `Altitude()`          | N/A                                   | Generate a random altitude, in meters. |
 | ✓    | Location      | `AreaCode()`          | `AreaCodeWithParams(parenthesis bool)` | Generate a random US area code. |
 | ✓    | Location      | `City()`              | N/A                                   | Generate a random city name. |
-| ✗    | Location      | `Coordinates()`       | `TBA`                                 | TBA               |
+| ✓    | Location      | `Coordinates()`       | N/A                                   | Generate random coordinates, which are latitude and longitude, comma separated. |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Depth()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `GeoHash()`           | `TBA`                                 | TBA               |
