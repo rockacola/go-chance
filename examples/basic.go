@@ -44,22 +44,23 @@ func main() {
 	// fmt.Println("Wp8Anid2():", c.Wp8Anid2())
 
 	// Web
-	fmt.Println("Tld():", c.Tld())
-	fmt.Println("Domain():", c.Domain())
-	fmt.Println("Email():", c.Email())
-	fmt.Println("Company():", c.Company())
-	fmt.Println("FacebookId():", c.FacebookId())
-	fmt.Println("GoogleAnalytics():", c.GoogleAnalytics())
-	fmt.Println("Hashtag():", c.Hashtag())
-	fmt.Println("Ip():", c.Ip())
-	fmt.Println("Ipv6():", c.Ipv6())
-	fmt.Println("Klout():", c.Klout())
-	fmt.Println("Profession():", c.Profession())
-	fmt.Println("Twitter():", c.Twitter())
-	fmt.Println("Url():", c.Url())
+	// fmt.Println("Tld():", c.Tld())
+	// fmt.Println("Domain():", c.Domain())
+	// fmt.Println("Email():", c.Email())
+	// fmt.Println("Company():", c.Company())
+	// fmt.Println("FacebookId():", c.FacebookId())
+	// fmt.Println("GoogleAnalytics():", c.GoogleAnalytics())
+	// fmt.Println("Hashtag():", c.Hashtag())
+	// fmt.Println("Ip():", c.Ip())
+	// fmt.Println("Ipv6():", c.Ipv6())
+	// fmt.Println("Klout():", c.Klout())
+	// fmt.Println("Profession():", c.Profession())
+	// fmt.Println("Twitter():", c.Twitter())
+	// fmt.Println("Url():", c.Url())
 
 	// Location
 	fmt.Println("City():", c.City())
+	fmt.Println("AreaCode():", c.AreaCode())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

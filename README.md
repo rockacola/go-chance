@@ -79,7 +79,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `Url()`               | N/A                                   | Generate a random URL. |
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Altitude()`          | `TBA`                                 | TBA               |
-| ✗    | Location      | `AreaCode()`          | `TBA`                                 | TBA               |
+| ✓    | Location      | `AreaCode()`          | `AreaCodeWithParams(parenthesis bool)` | Generate a random US area code. |
 | ✓    | Location      | `City()`              | N/A                                   | Generate a random city name. |
 | ✗    | Location      | `Coordinates()`       | `TBA`                                 | TBA               |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
