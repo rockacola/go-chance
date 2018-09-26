@@ -85,8 +85,8 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Depth()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `GeoHash()`           | `TBA`                                 | TBA               |
-| ✗    | Location      | `Latitude()`          | `TBA`                                 | TBA               |
-| ✗    | Location      | `Longitude()`         | `TBA`                                 | TBA               |
+| ✓    | Location      | `Latitude()`          | N/A                                   | Generate a random latitude, in meters. |
+| ✓    | Location      | `Longitude()`         | N/A                                   | Generate a random longitude, in meters. |
 | ✗    | Location      | `Phone()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `Postal()`            | `TBA`                                 | TBA               |
 | ✗    | Location      | `Province()`          | `TBA`                                 | TBA               |
