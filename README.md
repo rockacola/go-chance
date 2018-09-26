@@ -75,18 +75,18 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Web           | `Klout()`             | N/A                                   | Generate a random Klout score. Range 1-99. |
 | ✓    | Web           | `Profession()`        | `ProfessionWithParams(rank bool)`     | Generate a random profession. |
 | ✓    | Web           | `Tld()`               | N/A                                   | Generate a random TLD. |
-| ✗    | Web           | `Twitter()`           | `TBA`                                 | TBA               |
-| ✗    | Web           | `Url()`               | `TBA`                                 | TBA               |
+| ✓    | Web           | `Twitter()`           | N/A                                   | Generate a random Twitter handler. |
+| ✓    | Web           | `Url()`               | N/A                                   | Generate a random URL. |
 | ✗    | Location      | `Address()`           | `TBA`                                 | TBA               |
-| ✗    | Location      | `Altitude()`          | `TBA`                                 | TBA               |
-| ✗    | Location      | `AreaCode()`          | `TBA`                                 | TBA               |
-| ✗    | Location      | `City()`              | `TBA`                                 | TBA               |
-| ✗    | Location      | `Coordinates()`       | `TBA`                                 | TBA               |
+| ✓    | Location      | `Altitude()`          | N/A                                   | Generate a random altitude, in meters. |
+| ✓    | Location      | `AreaCode()`          | `AreaCodeWithParams(parenthesis bool)` | Generate a random US area code. |
+| ✓    | Location      | `City()`              | N/A                                   | Generate a random city name. |
+| ✓    | Location      | `Coordinates()`       | N/A                                   | Generate random coordinates, which are latitude and longitude, comma separated. |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
 | ✗    | Location      | `Depth()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `GeoHash()`           | `TBA`                                 | TBA               |
-| ✗    | Location      | `Latitude()`          | `TBA`                                 | TBA               |
-| ✗    | Location      | `Longitude()`         | `TBA`                                 | TBA               |
+| ✓    | Location      | `Latitude()`          | N/A                                   | Generate a random latitude, in meters. |
+| ✓    | Location      | `Longitude()`         | N/A                                   | Generate a random longitude, in meters. |
 | ✗    | Location      | `Phone()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `Postal()`            | `TBA`                                 | TBA               |
 | ✗    | Location      | `Province()`          | `TBA`                                 | TBA               |
