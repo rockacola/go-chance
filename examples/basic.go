@@ -61,6 +61,7 @@ func main() {
 	// Location
 	fmt.Println("City():", c.City())
 	fmt.Println("AreaCode():", c.AreaCode())
+	fmt.Println("Altitude():", c.Altitude())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
