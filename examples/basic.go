@@ -65,6 +65,7 @@ func main() {
 	fmt.Println("Longitude():", c.Longitude())
 	fmt.Println("Latitude():", c.Latitude())
 	fmt.Println("Coordinates():", c.Coordinates())
+	fmt.Println("Depth():", c.Depth())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

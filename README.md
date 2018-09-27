@@ -83,7 +83,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Location      | `City()`              | N/A                                   | Generate a random city name. |
 | ✓    | Location      | `Coordinates()`       | N/A                                   | Generate random coordinates, which are latitude and longitude, comma separated. |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
-| ✗    | Location      | `Depth()`             | `TBA`                                 | TBA               |
+| ✓    | Location      | `Depth()`             | N/A                                   | Generate a random depth, in meters. Depths are always negative. |
 | ✗    | Location      | `GeoHash()`           | `TBA`                                 | TBA               |
 | ✓    | Location      | `Latitude()`          | N/A                                   | Generate a random latitude, in meters. |
 | ✓    | Location      | `Longitude()`         | N/A                                   | Generate a random longitude, in meters. |
