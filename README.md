@@ -84,7 +84,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Location      | `Coordinates()`       | N/A                                   | Generate random coordinates, which are latitude and longitude, comma separated. |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
 | ✓    | Location      | `Depth()`             | N/A                                   | Generate a random depth, in meters. Depths are always negative. |
-| ✗    | Location      | `GeoHash()`           | `TBA`                                 | TBA               |
+| ✓    | Location      | `Geohash()`           | `GeohashWithParams(length int)`       | Generate a random [geohash](https://en.wikipedia.org/wiki/Geohash). |
 | ✓    | Location      | `Latitude()`          | N/A                                   | Generate a random latitude, in meters. |
 | ✓    | Location      | `Longitude()`         | N/A                                   | Generate a random longitude, in meters. |
 | ✗    | Location      | `Phone()`             | `TBA`                                 | TBA               |
