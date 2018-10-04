@@ -67,6 +67,7 @@ func main() {
 	fmt.Println("Coordinates():", c.Coordinates())
 	fmt.Println("Depth():", c.Depth())
 	fmt.Println("Geohash():", c.Geohash())
+	fmt.Println("CanadianPostal():", c.CanadianPostal())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

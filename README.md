@@ -88,7 +88,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Location      | `Latitude()`          | N/A                                   | Generate a random latitude, in meters. |
 | ✓    | Location      | `Longitude()`         | N/A                                   | Generate a random longitude, in meters. |
 | ✗    | Location      | `Phone()`             | `TBA`                                 | TBA               |
-| ✗    | Location      | `Postal()`            | `TBA`                                 | TBA               |
+| ✓    | Location      | `CanadianPostal()`    | N/A                                   | Generates a Canadian postal code. |
 | ✗    | Location      | `Province()`          | `TBA`                                 | TBA               |
 | ✗    | Location      | `State()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `Street()`            | `TBA`                                 | TBA               |
