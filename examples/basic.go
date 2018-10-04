@@ -70,6 +70,9 @@ func main() {
 	fmt.Println("CanadianPostal():", c.CanadianPostal())
 	fmt.Println("UsZipCode():", c.UsZipCode())
 
+	// Time
+	fmt.Println("AmPm():", c.AmPm())
+
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
 	// fmt.Println("Word():", c.Word())

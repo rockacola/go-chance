@@ -93,7 +93,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Location      | `State()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `Street()`            | `TBA`                                 | TBA               |
 | ✓    | Location      | `UsZipCode()`         | N/A                                   | Generate a random US zip code. |
-| ✗    | Time          | `AmPm()`              | `TBA`                                 | TBA               |
+| ✓    | Time          | `AmPm()`              | N/A                                   | Return am or pm. |
 | ✗    | Time          | `Date()`              | `TBA`                                 | TBA               |
 | ✗    | Time          | `HammerTime()`        | `TBA`                                 | TBA               |
 | ✗    | Time          | `Hour()`              | `TBA`                                 | TBA               |
