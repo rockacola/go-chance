@@ -83,17 +83,17 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Location      | `City()`              | N/A                                   | Generate a random city name. |
 | ✓    | Location      | `Coordinates()`       | N/A                                   | Generate random coordinates, which are latitude and longitude, comma separated. |
 | ✗    | Location      | `Country()`           | `TBA`                                 | TBA               |
-| ✗    | Location      | `Depth()`             | `TBA`                                 | TBA               |
-| ✗    | Location      | `GeoHash()`           | `TBA`                                 | TBA               |
+| ✓    | Location      | `Depth()`             | N/A                                   | Generate a random depth, in meters. Depths are always negative. |
+| ✓    | Location      | `Geohash()`           | `GeohashWithParams(length int)`       | Generate a random [geohash](https://en.wikipedia.org/wiki/Geohash). |
 | ✓    | Location      | `Latitude()`          | N/A                                   | Generate a random latitude, in meters. |
 | ✓    | Location      | `Longitude()`         | N/A                                   | Generate a random longitude, in meters. |
 | ✗    | Location      | `Phone()`             | `TBA`                                 | TBA               |
-| ✗    | Location      | `Postal()`            | `TBA`                                 | TBA               |
+| ✓    | Location      | `CanadianPostal()`    | N/A                                   | Generates a Canadian postal code. |
 | ✗    | Location      | `Province()`          | `TBA`                                 | TBA               |
 | ✗    | Location      | `State()`             | `TBA`                                 | TBA               |
 | ✗    | Location      | `Street()`            | `TBA`                                 | TBA               |
-| ✗    | Location      | `Zip()`               | `TBA`                                 | TBA               |
-| ✗    | Time          | `AmPm()`              | `TBA`                                 | TBA               |
+| ✓    | Location      | `UsZipCode()`         | N/A                                   | Generate a random US zip code. |
+| ✓    | Time          | `AmPm()`              | N/A                                   | Return am or pm. |
 | ✗    | Time          | `Date()`              | `TBA`                                 | TBA               |
 | ✗    | Time          | `HammerTime()`        | `TBA`                                 | TBA               |
 | ✗    | Time          | `Hour()`              | `TBA`                                 | TBA               |
