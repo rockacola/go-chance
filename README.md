@@ -100,7 +100,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Time          | `Millisecond()`       | N/A                                   | Generate a random millisecond value. |
 | ✗    | Time          | `Minute()`            | `TBA`                                 | TBA               |
 | ✗    | Time          | `Month()`             | `TBA`                                 | TBA               |
-| ✗    | Time          | `Second()`            | N/A                                   | Generate a random second value. |
+| ✓    | Time          | `Second()`            | N/A                                   | Generate a random second value. |
 | ✗    | Time          | `Timestamp()`         | `TBA`                                 | TBA               |
 | ✗    | Time          | `Timezone()`          | `TBA`                                 | TBA               |
 | ✗    | Time          | `Weekday()`           | `TBA`                                 | TBA               |
