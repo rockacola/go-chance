@@ -99,7 +99,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Time          | `Hour()`              | `HourWithParams(twentyFour bool)`     | Generate a random hour value. |
 | ✓    | Time          | `Millisecond()`       | N/A                                   | Generate a random millisecond value. |
 | ✓    | Time          | `Minute()`            | N/A                                   | Generate a random minute value. |
-| ✗    | Time          | `Month()`             | `TBA`                                 | TBA               |
+| ✓    | Time          | `Month()`             | N/A                                   | Generate a random month name. |
 | ✓    | Time          | `Second()`            | N/A                                   | Generate a random second value. |
 | ✗    | Time          | `Timestamp()`         | `TBA`                                 | TBA               |
 | ✗    | Time          | `Timezone()`          | `TBA`                                 | TBA               |

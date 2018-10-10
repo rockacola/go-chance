@@ -73,6 +73,7 @@ func main() {
 	// Time
 	fmt.Println("AmPm():", c.AmPm())
 	fmt.Println("Year():", c.Year())
+	fmt.Println("Month():", c.Month())
 	fmt.Println("Hour():", c.Hour())
 	fmt.Println("Minute():", c.Minute())
 	fmt.Println("Second():", c.Second())
