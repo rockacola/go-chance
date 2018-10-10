@@ -2,7 +2,7 @@ package chance
 
 import "errors"
 
-// Generate a random year.
+// Generate a random year value.
 func (c *Chance) Year() int {
 	output, _ := c.YearWithParams(1900, 2100)
 	return output
