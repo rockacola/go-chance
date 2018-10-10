@@ -97,7 +97,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Time          | `Date()`              | `TBA`                                 | TBA               |
 | ✗    | Time          | `HammerTime()`        | `TBA`                                 | TBA               |
 | ✗    | Time          | `Hour()`              | `TBA`                                 | TBA               |
-| ✗    | Time          | `Millisecond()`       | `TBA`                                 | TBA               |
+| ✓    | Time          | `Millisecond()`       | N/A                                   | Generate a random millisecond. |
 | ✗    | Time          | `Minute()`            | `TBA`                                 | TBA               |
 | ✗    | Time          | `Month()`             | `TBA`                                 | TBA               |
 | ✗    | Time          | `Second()`            | `TBA`                                 | TBA               |
