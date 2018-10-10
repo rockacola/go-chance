@@ -96,7 +96,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Time          | `AmPm()`              | N/A                                   | Return am or pm. |
 | ✗    | Time          | `Date()`              | `TBA`                                 | TBA               |
 | ✗    | Time          | `HammerTime()`        | `TBA`                                 | TBA               |
-| ✗    | Time          | `Hour()`              | `TBA`                                 | TBA               |
+| ✓    | Time          | `Hour()`              | `HourWithParams(twentyFour bool)`     | Generate a random hour value. |
 | ✓    | Time          | `Millisecond()`       | N/A                                   | Generate a random millisecond value. |
 | ✓    | Time          | `Minute()`            | N/A                                   | Generate a random minute value. |
 | ✗    | Time          | `Month()`             | `TBA`                                 | TBA               |
