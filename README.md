@@ -104,7 +104,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✗    | Time          | `Timestamp()`         | `TBA`                                 | TBA               |
 | ✗    | Time          | `Timezone()`          | `TBA`                                 | TBA               |
 | ✗    | Time          | `Weekday()`           | `TBA`                                 | TBA               |
-| ✗    | Time          | `Year()`              | `TBA`                                 | TBA               |
+| ✓    | Time          | `Year()`              | `YearWithParams(min int, max int)`    | Generate a random year. |
 | ✗    | Finance       | `CreditCard()`        | `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardType()`    | `TBA`                                 | TBA               |
 | ✗    | Finance       | `Currency()`          | `TBA`                                 | TBA               |

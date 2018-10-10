@@ -72,6 +72,7 @@ func main() {
 
 	// Time
 	fmt.Println("AmPm():", c.AmPm())
+	fmt.Println("Year():", c.Year())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())
