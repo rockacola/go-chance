@@ -78,6 +78,7 @@ func main() {
 	fmt.Println("Minute():", c.Minute())
 	fmt.Println("Second():", c.Second())
 	fmt.Println("Millisecond():", c.Millisecond())
+	fmt.Println("Weekday():", c.Weekday())
 
 	// // Text
 	// fmt.Println("Syllable():", c.Syllable())

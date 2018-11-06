@@ -103,7 +103,7 @@ Check out [`go-chance-examples`](https://github.com/rockacola/go-chance-examples
 | ✓    | Time          | `Second()`            | N/A                                   | Generate a random second value. |
 | ✗    | Time          | `Timestamp()`         | `TBA`                                 | TBA               |
 | ✗    | Time          | `Timezone()`          | `TBA`                                 | TBA               |
-| ✗    | Time          | `Weekday()`           | `TBA`                                 | TBA               |
+| ✓    | Time          | `Weekday()`           | N/A                                   | Generate a random weekday. |
 | ✓    | Time          | `Year()`              | `YearWithParams(min int, max int)`    | Generate a random year value. |
 | ✗    | Finance       | `CreditCard()`        | `TBA`                                 | TBA               |
 | ✗    | Finance       | `CreditCardType()`    | `TBA`                                 | TBA               |
